@@ -31,7 +31,7 @@ function Person(name, age) {
     }
 
     this.addAge = (num) => {
-        console.log(`This person is ${age + num} years old.`)
+        console.log(`${this.name} is now ${age + num} years old.`)
     }
 }
 
@@ -55,7 +55,6 @@ function checkStringLength() {
         } else {
             console.log(`Small Number`)
         }
-        console.log(string.length)
     })
 }
 
